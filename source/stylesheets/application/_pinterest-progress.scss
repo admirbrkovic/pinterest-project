@@ -1,0 +1,89 @@
+.pinterest-progress {
+
+   #link-bar {
+       background-color: #afeeee;
+       height: 70px;
+    }
+  
+   #site-name {
+   	   margin-top: 30px;
+    }
+
+   .mainbar {
+   	   background-color: #32cd32;
+   	   height: 300px;
+    }
+
+    #third-row {
+   	   background-color: yellow;
+   	   height: 200px;
+    }
+
+    #fourth-row {
+   	   background-color: #ffd700;
+   	   height: 250px;
+    }
+
+    #fifth-row {
+   	   background-color: #8b008b;
+   	   height: 100px ;
+    }
+
+    #sixth-row {
+   	   background-color: #8b008b;
+   	   height: 100px ;
+   	   margin-top: 30px;
+    }
+
+    #thin-line {
+   	   background-color: grey;
+   	   height: 10px;
+    }
+
+    #seventh-row {
+   	   background-color: #ffdead;
+   	   height: 150px;
+    }
+
+    #last {
+   	   background-color: black;
+   	   height: 50px;
+    }
+
+    .column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+
+  }

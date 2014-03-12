@@ -1,0 +1,54 @@
+.pinterest-3m {
+
+
+	#name-bar {
+		background-color: grey;
+		height: 35px;
+		margin-top: 20px;
+	}
+
+  .main-pic {
+    background-color: #40e0d0;
+    height: 300px;
+  }
+
+  #third-row {
+    background-color: cyan;
+    height: 150px;
+  }
+	
+	 .column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+}
