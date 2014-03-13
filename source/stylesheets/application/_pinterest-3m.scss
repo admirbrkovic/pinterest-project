@@ -5,6 +5,7 @@
 		background-color: grey;
 		height: 35px;
 		margin-top: 20px;
+    margin-bottom: 20px;
 	}
 
   .main-pic {
@@ -16,7 +17,39 @@
     background-color: cyan;
     height: 150px;
   }
+
+  .thumbnail {
+    height: 100px;
+  }
+
+  #first-four {
+    margin-top: 320px;
+  }
+
+  #second-four {
+    margin-top: 320px;
+  }
+
+  #third-four {
+    margin-top: 320px;
+  }
+
+  #fourth-four {
+    margin-top: 320px;
+  }
+
+  #fifth-four {
+    margin-top: 320px;
+  }
 	
+  .layout {
+    background-color: #f08080;
+  }
+
+  #last1 {
+    margin-top: 300px;
+    background-color: white;
+  }
 	 .column {
        @include outer-container;
     }

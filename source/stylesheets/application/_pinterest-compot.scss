@@ -1,0 +1,98 @@
+.pinterest-compot {
+	
+	.navbar {
+		background-color: #800000;
+		height: 45px;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	#main-bar {
+		background-color: #cd5c5c;
+		height: 130px;
+	}
+
+	#search {
+		margin-top: 25px;
+	}
+
+	#buttons-right {
+		margin-left: 105px;
+	}
+
+	#line {
+		background-color: black;
+		height: 2px;
+		margin-top: 22px;
+	}
+
+	#link-bar {
+		background-color: #ff4500;
+		height: 45px;
+		margin-top: 22px;
+	}
+
+	.main {
+		background-color: #ff0000;
+		height: 400px;
+	}
+
+	.headline {
+		text-align: center;
+	}
+
+	#tripic {
+		background-color: #dc143c;
+		height: 350px;
+	}
+
+	#four-one {
+		background-color: #ffd700;
+		height: 170px;
+		margin-top: -20px;
+	}
+
+	.footer {
+		background-color: grey;
+		height: 300px;
+		margin-top: 80px;
+	}
+
+	.column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+}
