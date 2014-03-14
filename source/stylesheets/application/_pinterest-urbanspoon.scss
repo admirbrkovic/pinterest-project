@@ -1,0 +1,177 @@
+.pinterest-urbanspoon {
+
+	#heder {
+		margin-top: 30px;
+		margin-left: 50px;
+		height: 30px;
+	}
+
+	.btn {
+		margin-top: 5px;
+	}
+
+      .main-pic {
+    background-color: #40e0d0;
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  #ikonice {
+  	margin-left: 120px;
+  }
+
+  #pic-line {
+  	text-align: center;
+  	padding-top: 80px;
+  }
+
+  #pic1-bat {
+  	padding-top: 20px;
+  }
+
+  #first-hedline {
+  	margin-top: 35px;
+  }
+
+  #first-hedline-small {
+  	margin-top: -20px;
+  }
+
+  #food-links {
+  	background-color: #008080;
+  	margin-left: -5px;
+  	margin-top: -30px;
+  	width: 170px;
+  }
+
+  #first-menu {
+  	background-color: #4682b4;
+  	height: 120px;
+  	margin-top: -35px;
+  }
+  #food-name {
+  	margin-top: -15px;
+  	text-align: center;
+  }
+
+  #food-name-small {
+  	margin-top: -18px;
+  	text-align: center;
+  }
+
+    .second-largepic {
+    background-color: #40e0d0;
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  #second-pichedline {
+  	margin-top: 130px;
+  }
+
+  #second-hedlinesmall {
+  	margin-top: -20px;
+  }
+
+  .mainpic3 {
+  	height: 300px;
+  	background-color: #40e0d0;
+  	text-align: center;
+  	padding-top: 40px;
+  	margin-top: 30px;
+  }
+
+  #food-links2 {
+  	background-color: #008080;
+  	margin-left: -22px;
+  	margin-top: -30px;
+  	width: 170px;
+   }
+
+   #noname-pic {
+  	 background-color: #4682b4;
+  	 height: 210px;
+  	 margin-top: -35px;
+  }
+
+    #p11 {
+         margin-top: -32px;
+    }
+
+    #p12 {
+    	margin-top: -20px;
+    }
+	
+     #p13 {
+     	height: 105px;
+     	margin-top: -10px;
+     	background-color: #00008b;
+     }
+	
+	.lastpic {
+		background-color: #00ffff;
+		height: 300px;
+		text-align: center;
+		padding-top: 50px;
+		margin-top: 30px;
+	}
+
+	#last-row {
+		background-color: black;
+		height: 90px;
+	}
+
+	#last-hedline {
+		margin-top: 30px;
+	}
+
+	#last-links {
+		margin-top: 40px;
+	}
+
+	#last-box {
+		background-color: #0000cd;
+		height: 50px;
+		width: 320px;
+	}
+
+	.column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+    .column9 {
+       @include span-columns(9);
+    }
+
+}

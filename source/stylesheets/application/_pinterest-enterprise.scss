@@ -1,0 +1,167 @@
+.pinterest-enterprise {
+
+	.heder {
+		background-color: #7fff00;
+		height: 550px;
+		padding-top: 180px;
+		padding-left: 170px;
+	}
+
+	.btn {
+		margin-top: 50px;
+		background-color: cyan;
+	}
+
+	#pic1 {
+		background-color: #00ff00;
+		height: 170px;
+		width: 330px;
+		margin-top: 100px;
+	}
+
+	#text1 {
+		margin-top: 100px;
+	}
+
+	#small-text1 {
+		margin-top: 50px;
+	}
+
+	#small-text2 {
+		margin-top: 100px;
+	}
+
+	#pic2 {
+		background-color: #00ff00;
+		height: 170px;
+		margin-top: 100px;
+		width: 500px;
+	}
+
+	#btn2 {
+		margin-top: -35px;
+	}
+
+	#pic3 {
+		background-color: #00ff00;
+		height:180px;
+		margin-top: 90px;
+	}
+
+	#text3 {
+		margin-top: 120px;
+		text-align: right;
+	}
+
+	#btn3 {
+		margin-top: -55px;
+	}
+
+	#unknown {
+		background-color: #008b8b;
+		height: 50px;
+		margin-top: 90px;
+		margin-right: 70px;
+	}
+
+	.line {
+		background-color: black;
+		height: 1px;
+		margin-top: 90px;
+	}
+
+	#pic4 {
+		background-color: #00ff00;
+		height: 350px;
+		margin-top: 90px;
+	}
+
+	#text4 {
+		margin-top: 120px;
+	}
+
+	#text5 {
+		margin-top: 10px;
+	}
+
+	#text6 {
+		margin-top: 85px;
+		padding-left: 80px;
+	}
+
+	#video1 {
+		background-color: #00ff00;
+		height:200px;
+		margin-top: 80px;
+		margin-left: 50px;
+	}
+
+	.whole-pic {
+		background-color: #7fff00;
+		height: 300px;
+		margin-top: 90px;
+		padding-left: 200px;
+		padding-top: 70px
+	}
+
+	#pic5 {
+		background-color: #00ff00;
+		height: 450px;
+		margin-top: 70px;
+	}
+
+	#text-between {
+		text-align: center;
+		margin-top: 150px;
+	}
+
+	#video2 {
+		height: 150px;
+		background-color: #00ff00;
+		width: 200px;
+		margin-top: 60px;
+		margin-left: 100px;
+	}
+
+
+	
+	.column {
+       @include outer-container;
+    }
+    .column6 {
+       @include span-columns(6);
+    }
+
+    .column4 {
+       @include span-columns(4);
+    }
+
+    .column2 {
+       @include span-columns(2);
+    }
+
+    .column8 {
+       @include span-columns(8);
+    }
+
+    .column10 {
+       @include span-columns(10);
+    }
+
+    .column3 {
+       @include span-columns(3);
+    }
+
+    .column5 {
+       @include span-columns(5);
+    }
+
+    .column1 {
+       @include span-columns(1);
+    }
+
+    .column9 {
+       @include span-columns(9);
+    }
+
+}
