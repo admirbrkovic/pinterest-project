@@ -123,9 +123,106 @@
 		margin-left: 100px;
 	}
 
+	#form1 {
+		margin-top: 110px;
+	}
 
-	
-	.column {
+	#btn4 {
+		margin-top: -50px;
+		size: large;
+	}
+
+	.form-part {
+		background-color: #bee5ff;
+		height: 300px;
+		margin-top: 520px;
+	}
+
+	#pic6 {
+		background-color: #00ff00;
+		height: 190px;
+		margin-top: 65px;
+	}
+
+	.patent {
+		text-align: center;
+		padding-top: 100px;
+	}
+
+	.tablet-left {
+		background-color: #00ff00;
+		height: 300px;
+		margin-top: 150px;
+	}
+
+	.tablet-link {
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.last-pic {
+		text-align: center;
+		background-color: #bee5ff;
+		margin-top: 100px;
+		height: 350px;
+		padding-top: 40px;
+	}
+
+	#picinpic {
+		background-color: #00ff00;
+		height: 150px;
+		width: 300px;
+		margin-left: 490px;
+	}
+
+	.prefooter {
+		text-align: center;
+		padding-top: 65px;
+	}
+
+	#clients {
+		background-color: #00ff00;
+		height: 50px;
+	}
+
+	.footer {
+		background-color: #46555e;
+		height: 390px;
+		margin-top: 170px;
+	}
+
+	h4 {
+		color: white;
+	}
+
+	#haha {
+		background-color: #00ff00;
+		height: 50px;
+		width: 100px;
+		margin-left: 20px;
+		margin-top: -20px;
+	}
+
+	#haha2 {
+		text-align: right;
+	}
+
+	#kraj {
+		background-color: black;
+		height: 55px;
+		margin-top: -25px;
+	}
+
+	#visa {
+		background-color: white;
+		height: 20px;
+		margin-top: 20px;
+	}
+
+	.button {
+       @include button;
+    }
+    .column {
        @include outer-container;
     }
     .column6 {
